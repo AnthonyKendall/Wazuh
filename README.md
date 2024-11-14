@@ -1,9 +1,18 @@
-Project Overview: Wazuh is a free and open source security platform that unifies XDR and SIEM capabilities. It protects workloads across on-premises, virtualized, containerized, and cloud-based environments.
+# Wazuh
 
-Reason I wanted to work on this was to get my hands on how a SIEM works and operates. I wanted to configure how agents report into the SIEM as well as create custome rules to detect and monitor. Wazuh is an amazing tool and its hard to believe that this is a free tool. It even provides some proactive measures by being a host intrusion prevention system by detecting malware and remediating it. 
+## Objective
+
+Wazuh is an open-source security monitoring platform that provides real-time threat detection, log analysis, and vulnerability monitoring. It helps organizations detect security incidents, ensure compliance with regulations, and respond to potential threats effectively. Setting up and practicing with Wazuh is valuable because it allows hands-on experience with a powerful tool that integrates seamlessly with other security solutions like the Elastic Stack, enabling a comprehensive view of security data. This experience is crucial for improving skills in monitoring, incident response, and maintaining a strong security posture across diverse environments.
+
+### Skills Learned
+
+- Advanced understanding of SIEM concepts and practical application.
+- Proficiency in analyzing and interpreting network logs.
+- Ability to generate and recognize attack signatures and patterns.
 
 
-Lets get started!! 
+
+## Steps Taken
 
 I have to download an OS that Wazuh can sit on. Looking at their documentation, I will choose Ubuntu. However, you could choose which ever option you are more comfortable with.
 
