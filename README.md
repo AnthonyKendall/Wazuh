@@ -96,6 +96,28 @@ I now let the agent sit on the desktop to start collecting telemetry about the d
 
 ![Snag_50bb59c](https://github.com/user-attachments/assets/c9c09112-9c6e-4237-8d1e-5a5b34a302bb)
 
+The agent is now reporting in a ton of data such as: Vulnerabilites, Registry key modifications, CIS benchmarks to harden the OS and even the MITRE ATT&CK Top tactics
+
+![Snag_82e5f4d](https://github.com/user-attachments/assets/3b6330a5-2f9c-44e8-b5c5-9f9ce6f05eeb)
+
+
+Looking at the events for registry key modifications, we can see there have been some registery keys that were deleted 
+
+![Snag_8309c2d](https://github.com/user-attachments/assets/1b1a69e4-fda1-422a-a258-f5865e669a94)
+
+
+Here is a screenshot that has more information about a specific row 
+
+![Snag_831b175](https://github.com/user-attachments/assets/5842dd09-8a70-4c09-a140-80f004b6d3df)
+
+
+We also can see vulnerabilites found on the machine 
+
+![Snag_832808d](https://github.com/user-attachments/assets/9d63e527-59d0-45b6-823b-fbb224a9aeba)
+
+We can also see events such as authentication failures and successful logins
+
+![Snag_8344734](https://github.com/user-attachments/assets/3bd88344-ace8-4be1-9359-556af6385496)
 
 
 Conclusion: I have successfully installed Wazuh manager on a Ubuntu OS and downloaded an agent onto a Windows desktop to check in and start sending logs to the manager. The agent needs to sit on the device and start collecting data which takes time, but overall the process was fun and gave great insight on how to setup a SIEM tool. 
