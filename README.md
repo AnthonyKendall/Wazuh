@@ -154,7 +154,7 @@ First, you will need to create a Slack account. Once created create a channel ca
 
 Once you do this. Navigate to "Incoming Webhooks". From here, turn the feature on. Once on, take the Webhook URL and add it over to the Wazuh manager.
 
-I went ahead and added the integration into the Wazuh manager and the alerts are coming back to Slack now. 
+I went ahead and added the integration into the Wazuh manager. I am looking for specific rule.id's and a severity level to trigger. For exmaple, failed logins would trigger and then send back to Slack for an alert.  
 
 ![Snag_124612ab](https://github.com/user-attachments/assets/b8c12e9d-1ce6-4415-9ae9-62f28508e590)
 
